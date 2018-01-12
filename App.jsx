@@ -1,28 +1,23 @@
 import React from 'react';
-import Left from './components/Left.jsx';
-import Right from './components/Right.jsx';
+import { HashRouter, Route, Switch } from 'react-router-dom';
+
+import MainPage from './MainPage.jsx';
+import Page2 from './Page2.jsx';
 
 class App extends React.Component {
 
   constructor(props) {
     super(props);
-    this.handleChange = this.handleChange.bind(this);
-    this.state = {value: 0};
   }
 
-  handleChange() {
-    this.setState({value: this.state.value + 1});
-  }
-
-  // TODO: Something else than div for container
   render() {
     return (
-    	<div id="appContainer">
-	      	<Left 
-          		onChange={this.handleChange}
-          	/>
-	      	<Right value={this.state.value}/>
-	    </div>
+      <HashRouter>
+        <Switch>
+          <Route exact path="/" component={MainPage} />
+          <Route exact path="/page2" component={Page2} />
+        </Switch>
+      </HashRouter>
     );
   }
 }
