@@ -41,3 +41,4 @@ module.exports = {
 // TODO: Add ESLint
 // TODO: Sjekk at npm build gir samme resultat som npm start
 // TODO: Sjekk at alt polyfilles på IE
+// TODO: Add source mapping

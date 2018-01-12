@@ -6,8 +6,22 @@ body {
 	color: #1d1d1d;
 }
 
-.helloWorld {
+#appContainer {
+    display: flex;
+}
+
+.pane {
 	border: 1px solid #d1d1d1;
 	margin: 1rem;
 	padding: 1rem;
 }
+
+.left {
+	flex: 3;
+}
+
+.right {
+	flex: 1;
+}
+
+// TODO: Inline styling, perhaps?
