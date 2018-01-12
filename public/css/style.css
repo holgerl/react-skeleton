@@ -1,0 +1,13 @@
+@font-face {font-family: "Alte Haas Grotesk"; src: url("../font/AlteHaasGroteskRegular.ttf");}
+@font-face {font-family: "Alte Haas Grotesk"; src: url("../font/AlteHaasGroteskBold.ttf"); font-weight: bold;}
+
+body {
+	font-family: "Alte Haas Grotesk", Arial;
+	color: #1d1d1d;
+}
+
+.helloWorld {
+	border: 1px solid #d1d1d1;
+	margin: 1rem;
+	padding: 1rem;
+}
