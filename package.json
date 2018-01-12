@@ -1,7 +1,7 @@
 {
   "name": "react-skeleton",
   "version": "1.0.0",
-  "description": "Skeleton for a React app with Webpack, Babel and ESLint",
+  "description": "Skeleton for a React app",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --port=8081",
